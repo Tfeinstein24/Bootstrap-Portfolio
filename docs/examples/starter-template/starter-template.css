@@ -18,6 +18,7 @@ padding: 10px;
 height: 65px;
 }
 
+
 h2 {
 font-family: arial;
 color: teal;
@@ -39,7 +40,7 @@ padding-left: 15px;
 }
 
 .jumbotron {
-height: 740px;
+height: 820px;
 }
 
 .footer {
@@ -137,6 +138,10 @@ padding: 10px;
 background-color: white;
 }
 
+.col-md-6 {
+background-color: white;
+}
+
 .navbar {
 min-height: 100px;
 }
@@ -158,13 +163,15 @@ min-height: 100px;
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
+  opacity: 1.0;
 }
 
 .work h3 {
+  margin-left: 13px;
+  opacity: 0.8;
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  width: 90%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
